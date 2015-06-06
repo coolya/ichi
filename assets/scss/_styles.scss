@@ -129,7 +129,7 @@ a {
     background-color: $color;
     &:not(.bgimage) {
         &:hover {
-            background: darken($color, 40%);
+            background: darken($color, 60%);
         }
         &:after {
             display: none;
