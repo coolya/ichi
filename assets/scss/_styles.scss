@@ -120,6 +120,7 @@ a {
 
 /* Sidebar */
 .head-area {
+    opacity: .3;
     margin-top: -50px;
     padding-top: 30px;
     background-repeat: no-repeat;
@@ -155,7 +156,7 @@ a {
         top: 0;
         left: 0;
         z-index: 1;
-        background: rgba(0, 0, 0, 0.8);
+        opacity: 1;
     }
     @media screen and (min-width:64.063em) {
         margin-top: 0;
