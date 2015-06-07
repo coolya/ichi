@@ -3,6 +3,7 @@
 /* Variables */
 $color: #666;
 $black: #333; /* Generic */
+$linkColor: orange;
 $authorColor: rgb(238, 238, 238);
 body {
     font-family: "open sans", "helvetica neue", helvetica, arial, sans-serif;
@@ -18,9 +19,9 @@ button, .button, a, span, li, .head-area:after, hr, img, .read-more:before, main
     @include transition(.3s all);
 }
 a {
-    color: $color;
+    color: $linkColor;
     &:hover {
-        color: darken($color, 20%);
+        color: darken($linkColor, 20%);
     } 
 }
 #outdated {
