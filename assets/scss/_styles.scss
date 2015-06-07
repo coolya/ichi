@@ -3,6 +3,7 @@
 /* Variables */
 $color: #666;
 $black: #333; /* Generic */
+$authorColor: rgb(238, 238, 238);
 body {
     font-family: "open sans", "helvetica neue", helvetica, arial, sans-serif;
     background: url('../images/main-background.jpg') repeat;
@@ -592,7 +593,7 @@ a {
             }
         }
         .author {
-            background: rgb(238, 238, 238);
+            background: darken($authorColor, 20%);
             margin-top: 20px;
             color: white;
             width: 100%;
@@ -607,6 +608,7 @@ a {
             header {
                 span {
                     color: darken($color, 12%);
+                    background: darken($authorColor, 20%);
                     font-size: 1.4rem;
                     font-weight: 900;
                     font-family: "source sans pro", arial, sans-serif;
@@ -614,7 +616,7 @@ a {
                 }
             }
             section {
-                background: rgb(238, 238, 238);
+                background: $authorColor;
                 position: relative;
                 overflow: hidden;
                 padding: 10px;
